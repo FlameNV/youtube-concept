@@ -1,8 +1,8 @@
-# Youtube-concept - учебный проэкт Glo Academy
+# Youtube-concept - training project from Glo Academy
 
-Проэкт выполнил: Никита Выжол
+Project was completed by: Nikita Vyzhol
 
-## Используемые технологии:
+## Technologies used:
 - HTML
 - CSS
 - Normalize.css
