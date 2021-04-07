@@ -3,13 +3,16 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .header {
   display: flex;
   align-items: center;
   padding: 20px 70px 20px 32px;
+  margin-bottom: 30px;
 }
 
 .menu-button {
@@ -113,4 +116,115 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+.sidebar {
+  padding-left: 32px;
+}
+
+.nav-menu {
+  margin-top: 0px;
+  margin-bottom: 60px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.home-icon {
+  width: 20px;
+  height: 19px;
+}
+
+.trending-icon {
+  width: 16px;
+  height: 21px;
+}
+
+.subscriptions-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.nav-item {
+  margin-bottom: 28px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #898989;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item .icon {
+  fill: #898989;
+}
+
+.nav-link:hover {
+  color: #ff0000;
+}
+
+.nav-link:hover .icon {
+  fill: #ff0000;
+}
+
+.nav-text {
+  margin-left: 13px;
+}
+
+.library-icon {
+  width: 20px;
+  height: 16px;
+}
+
+.history-icon {
+  width: 20px;
+  height: 18px;
+}
+
+.watch_later-icon {
+  width: 17px;
+  height: 19px;
+}
+
+.favourites-icon {
+  width: 19px;
+  height: 18px;
+}
+
+.liked_videos-icon {
+  width: 18px;
+  height: 17px;
+}
+
+.music-icon {
+  width: 18px;
+  height: 20px;
+}
+
+.games-icon {
+  width: 22px;
+  height: 16px;
+}
+
+.show_more-icon {
+  width: 14px;
+  height: 8px;
+}
+
+.nav-image {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.nav-headline {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+
+.setting-icon {
+  width: 19px;
+  height: 20px;
 }
