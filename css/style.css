@@ -13,6 +13,12 @@ body {
   align-items: center;
   padding: 20px 70px 20px 32px;
   margin-bottom: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 99;
 }
 
 .menu-button {
@@ -120,6 +126,13 @@ body {
 
 .sidebar {
   padding-left: 32px;
+  position: fixed;
+  left: 0;
+  top: 114px;
+  height: calc(100% - 114px);
+  overflow-y: auto;
+  width: 12%;
+  background-color: white;
 }
 
 .nav-menu {
@@ -227,4 +240,190 @@ body {
 .setting-icon {
   width: 19px;
   height: 20px;
+}
+
+.content {
+  width: 100%;
+  height: 400px;
+  margin-top: 83px;
+  padding-left: 13%;
+  padding-top: 30px;
+}
+
+.channel {
+  position: relative;
+}
+
+.channel-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #19202c;
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.channel-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.video-card {
+  width: 250px;
+}
+
+.video-thumb {
+  width: 250px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 14px;
+  position: relative;
+}
+
+.thumbnail {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.video-duration {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  padding: 3px 9px;
+}
+
+.video-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #19202c;
+  margin: 10px 0 4px 0;
+}
+
+.video-info {
+  display: flex;
+  font-size: 13px;
+  line-height: 16px;
+  color: #c2c2c2;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video-views {
+  margin-right: 5px;
+}
+
+.video-views::after {
+  content: "";
+  width: 2px;
+  height: 2px;
+  background-color: #c2c2c2;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.left-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.right-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.channel-button {
+  cursor: pointer;
+}
+
+.slider-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 66px;
+  position: absolute;
+  top: 15px;
+  right: 8%;
+}
+
+.recommended {
+  margin-top: 50px;
+  position: relative;
+}
+
+.recommended-title {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.recommended-video-card {
+  width: 540px;
+}
+
+.recommended-video-thumb {
+  width: 540px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 14px;
+  position: relative;
+}
+
+.recommended-thumbnail {
+  width: 540px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.recommended-slider-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 66px;
+  position: absolute;
+  top: 0;
+  right: 8%;
+}
+
+.recommended-button {
+  cursor: pointer;
+}
+
+.food {
+  margin-top: 50px;
+  position: relative;
+}
+
+.food-button {
+  cursor: pointer;
+}
+
+.subpanel {
+  position: absolute;
+  top: 10px;
+  left: 250px;
+}
+
+.recommended-for-you {
+  font-size: 16px;
+  line-height: 20px;
+  color: #c2c2c2;
+}
+
+.subscribe {
+  background: #ff0000;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 780px;
 }
