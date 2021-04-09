@@ -25,6 +25,13 @@
         <span class="menu-line"></span>
       </button>
       <img src="img/logo.svg" alt="YouTube logo" class="logo" />
+
+      <div class="mobile-search">
+        <svg class="icon search-icon">
+          <use href="img/icons.svg#search"></use>
+        </svg>
+      </div>
+
       <div class="search-bar">
         <input type="search" class="search-input" placeholder="Search" />
         <button class="search-button" type="submit">
@@ -54,6 +61,42 @@
         <img src="img/avatar.jpg" alt="Avatar" class="avatar" />
       </a>
     </header>
+    <div class="mobile-sidebar">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icon home-icon">
+              <use href="img/icons.svg#home"></use>
+            </svg>
+            <span class="nav-text">Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icon trending-icon">
+              <use href="img/icons.svg#trending"></use>
+            </svg>
+            <span class="nav-text">Trending</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icon subscriptions-icon">
+              <use href="img/icons.svg#subscriptions"></use>
+            </svg>
+            <span class="nav-text">Subscriptions</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icon library-icon">
+              <use href="img/icons.svg#library"></use>
+            </svg>
+            <span class="nav-text">Library</span>
+          </a>
+        </li>
+      </ul>
+    </div>
     <div class="section">
       <aside class="sidebar">
         <nav class="nav">
@@ -444,31 +487,36 @@
           </div>
         </div>
         <div class="food">
-          <a href="#" class="channel-link">
-            <img
-              src="img/foodAvatar.png"
-              alt="Food & Drink"
-              class="channel-avatar"
-            />
-            <span class="channel-name">Food & Drink</span>
-          </a>
           <div class="subpanel">
-            <span class="recommended-for-you">Recommended channel for you</span>
-            <button class="subscribe">
-              <span class="followers">Subscribe 2.3m</span>
-            </button>
-          </div>
-
-          <div class="slider-buttons">
-            <div class="food-button food-button-prev">
-              <svg class="icon left-icon">
-                <use href="img/icons.svg#left"></use>
-              </svg>
+            <div class="left-side">
+              <a href="#" class="channel-link">
+                <img
+                  src="img/foodAvatar.png"
+                  alt="Food & Drink"
+                  class="channel-avatar"
+                />
+                <span class="channel-name">Food & Drink</span>
+              </a>
+              <span class="recommended-for-you"
+                >Recommended channel for you</span
+              >
             </div>
-            <div class="food-button food-button-next">
-              <svg class="icon right-icon">
-                <use href="img/icons.svg#right"></use>
-              </svg>
+            <div class="right-side">
+              <button class="subscribe">
+                <span class="followers">Subscribe 2.3m</span>
+              </button>
+              <div class="food-slider-buttons">
+                <div class="food-button food-button-prev">
+                  <svg class="icon left-icon">
+                    <use href="img/icons.svg#left"></use>
+                  </svg>
+                </div>
+                <div class="food-button food-button-next">
+                  <svg class="icon right-icon">
+                    <use href="img/icons.svg#right"></use>
+                  </svg>
+                </div>
+              </div>
             </div>
           </div>
 
